@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.main.ProductActivity">
+
+        <ImageView
+            android:id="@+id/shareimage"
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/womensweatshirt" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="411dp"
+            android:layout_height="124dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingEnd="10dp"
+            android:text="Please enter PIN code to check delivery time and Pay on Delivery Availability  100% Original Products Pay on delivery might be available Easy 15 days returns and exchanges Try and Buy might be available"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shareimage"
+            app:layout_constraintVertical_bias="0.706" />
+
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="Share on WhatsApp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="ORDER" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

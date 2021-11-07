@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.main.ProductActivity">
+
+        <ImageView
+            android:id="@+id/shareimage1"
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_marginTop="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/menpr" />
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="411dp"
+            android:layout_height="124dp"
+            android:layout_marginBottom="60dp"
+            android:fontFamily="@font/poppinsbold"
+            android:paddingEnd="10dp"
+            android:text="PRODUCT DETAILS
+White and Blue printed casual shirt, has a spread collar, long sleeves, button placket, curved hem, and 1 patch pocket
+
+Size Fit
+Standard Fit
+The model (height 6') is wearing a size 40
+
+Materia Care
+Material: 65% cotton, 32% polyester, 3% elastane
+Machine Wash"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shareimage"
+            app:layout_constraintVertical_bias="0.706" />
+
+        <Button
+            android:id="@+id/share1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="Share on WhatsApp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="ORDER" />
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
