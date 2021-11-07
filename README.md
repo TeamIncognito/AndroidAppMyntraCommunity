@@ -1,4 +1,3 @@
-# AndroidAppMyntraCommunity..
 
 # MYNTRA COMMUNITY ANDROID APP
 
